@@ -1,2 +1,2 @@
 def handler (event, context):
-  return {'headers':{'content-type':'text/html'}, 'body': 'hey <b>here</b>' }
+  return {'statusCode':200, 'headers':{'content-type':'text/html'}, 'body': 'hey <b>here</b>' }
